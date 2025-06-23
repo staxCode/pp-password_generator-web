@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <link href="/dist/output.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="p-4 flex flex-wrap gap-4 justify-center content-center md:h-screen">
+    <div class="w-full p-2 md:text-center md:p-4 md:w-2/3" id="head">
+      <h1 class="mb-4 text-3xl font-extrabold tracking-tight text-white leading-none md:text-4xl">
+        Generate your passwords with
+        <span class="underline underline-offset-3 decoration-8 decoration-accent">Randass</span>
+      </h1>
+      <p class="text-lg font-normal text-gray-200 lg:text-xl">Randass offers you different options to
+        generate your passwords.</p>
+    </div>
+    <div class="w-full p-2 bg-white rounded-lg border shadow-lg max-w-3xl md:p-4 md:w-2/3">
+      <div class="flex items-center py-2 px-3" id="input-group">
+
+      </div>
+    </div>
+    <div class="w-full p-6 bg-white rounded-lg border shadow-lg max-w-3xl divide-y-2 divide-gray-100 md:w-2/3">
+      <h5 class="pb-3 text-left text-xl font-medium text-gray-700 lg:text-2xl">Personalize your password</h5>
+      <div class="py-4 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div class="md:col-span-2">
+          <p class="text-lg text-gray-500 font-medium mb-4">Password length</p>
+          <div class="mb-6 flex flex-row gap-4 justify-center items-center" id="range-characters"></div>
+        </div>
+        <div class="text-gray-900 font-medium text-md" id="radio-group"></div>
+        <div class="text-gray-900 font-medium text-md" id="checkbox-group"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
