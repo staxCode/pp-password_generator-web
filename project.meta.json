@@ -1,0 +1,8 @@
+{
+    "name": "Password Generator Web",
+    "description": "A web-based password generator application",
+    "name_spanish": "Generador de Contraseñas Web",
+    "description_spanish": "Una aplicación web para generar contraseñas seguras",
+    "type": "web",
+    "version": "1.0.0"
+}
